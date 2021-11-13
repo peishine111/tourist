@@ -1,0 +1,80 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  top: 0px;
+}
+
+.nav-item.index {
+  left: 800px;
+}
+
+.nav-item.restaurant {
+  left: 910px;
+}
+
+.nav-item.hotel {
+  left: 1020px;
+}
+
+.nav-item.activity {
+  left: 1130px;
+}
+
+img.pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 777px;
+  width: 1440px;
+  z-index: -1;
+}
+
+h1.welcome {
+  color: white;
+  position: absolute;
+  top: 240px;
+  left: 83px;
+  font-size: 94px;
+  height: 50px;
+  width: 1000px;
+}
+
+.plate {
+  position: absolute;
+  top: 450px;
+  left: 50px;
+  height: 282px;
+  width: 1270px;
+  background-color: rgba(250, 250, 250, 0.8);
+  border-radius: 10px;
+}
+.plate h6 {
+  position: absolute;
+  top: 80px;
+  left: 50px;
+  font-size: 50px;
+}
+.plate input.text {
+  position: absolute;
+  top: 180px;
+  left: 50px;
+  height: 80px;
+  width: 1072px;
+  font-size: 40px;
+  border-radius: 5px;
+}
+.plate input.btn {
+  position: absolute;
+  top: 180px;
+  left: 1130px;
+  height: 80px;
+  width: 100px;
+  font-size: 40px;
+}
