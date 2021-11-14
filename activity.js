@@ -14,8 +14,8 @@ send.addEventListener('click',function(e){
     let str="";
     thisData.forEach(item=>{
       console.log(item)
-      str+=`<li><img src="${item.Picture.PictureUrl1}" alt="${item.Picture.PictureDescription1}" height="500px" width="750px" /></li>`;
-      str+=`<li>${item.Name}</li>`;
+      str+=`<li><img src="${item.Picture.PictureUrl1}" alt="api沒有提供圖片" height="250px" width="300px" /><br>
+      <h3>${item.Name.substring(0, 10)}</h3></li>`;
     })
     list.innerHTML = str;
   })
