@@ -12,16 +12,19 @@
   <a href="./restaurant.html" class="nav-item restaurant">美食餐廳</a>
   <a href="./hotel.html" class="nav-item hotel">旅遊住宿</a>
   <a href="./activity.html" class="nav-item activity">觀光活動</a>
+  <br><br>
   <img class="pic" src="https://upload.cc/i1/2021/11/13/HnWteX.png" alt="台北101"/>
   <h1 class="welcome">Welcome to Taiwan.</h1>
   <div class="plate">
     <h6>輸入飯店旅館等你想探索的資訊:</h6>
-    <input class="text keyword" type="text" placeholder="台北101、日月潭......"/>
+    <input class="text keyword" type="text" placeholder="福容、漢來......"/>
     <input class="btn send" type="button" value="搜尋"/></div>
-  <h2>飯店旅館列表
-    <ul class="list"></ul>
-  </h2>
+  <div><h2>飯店旅館列表
+      <ul class="list"></ul>
+  </h2></div>
 
-  <script src="index.js"></script>
+  <script src="hotel.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha.js"></script>
 </body>
 </html>

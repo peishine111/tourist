@@ -4,7 +4,7 @@ const list = document.querySelector('.list');
 send.addEventListener('click',function(e){
   const keywordTxt = keyword.value; 
   axios.get(
-   `https://ptx.transportdata.tw/MOTC/v2/Tourism/ScenicSpot?$filter=contains(Name,'${keywordTxt}')&$format=JSON`,
+   `https://ptx.transportdata.tw/MOTC/v2/Tourism/Restaurant?$filter=contains(Name,'${keywordTxt}')&$format=JSON`,
    {
       headers: getAuthorizationHeader()
    }
@@ -23,6 +23,8 @@ send.addEventListener('click',function(e){
     console.log(error);
   }); 
 })
+
+
 
 
 function getAuthorizationHeader() {
