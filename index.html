@@ -5,32 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>旅遊景點</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
 
-  
-  <a href="./index.html" class="nav-item index">觀光景點</a>
-  <a href="./restaurant.html" class="nav-item restaurant">美食餐廳</a>
-  <a href="./hotel.html" class="nav-item hotel">旅遊住宿</a>
-  <a href="./activity.html" class="nav-item activity">觀光活動</a>
-  <br><br>
-  <img class="pic" src="https://upload.cc/i1/2021/11/13/HnWteX.png" alt="台北101"/>
-  <h1 class="welcome">Welcome to Taiwan.</h1>
-  <div class="plate">
-    <h6>輸入景點地名等你想探索的資訊:</h6>
-    <input class="text keyword" type="text" placeholder="台北101、日月潭......"/>
-    <input class="btn send" type="button" value="搜尋"/>
-  </div>
-  <div><h2>景點列表
-    <ul class="list"></h2>
-    </ul>
+  <div class="whole">
+    <a href="./index.html" class="nav-item index">觀光景點</a>
+    <a href="./restaurant.html" class="nav-item restaurant">美食餐廳</a>
+    <a href="./hotel.html" class="nav-item hotel">旅遊住宿</a>
+    <a href="./activity.html" class="nav-item activity">觀光活動</a>
+    <br><br>
+    <img class="pic" src="https://upload.cc/i1/2021/11/13/HnWteX.png" alt="台北101"/>
+    <h1 class="welcome">Welcome to Taiwan.</h1>
+    <div class="plate">
+      <h6>輸入景點地名等你想探索的資訊:</h6>
+      <input class="text keyword" type="text" placeholder="台北101、日月潭......"/>
+      <input class="btn send" type="button" value="搜尋"/>
+    </div>
+    <div><h2>景點列表</h2>
+      <ul class="list">
+      </ul>
+    </div>
+  </div><br>
+  <div class="btn2">
   </div>
 
 
-  <script src="index.js"></script>
+  <script src="./index.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.js"></script>
 </body>
 </html>

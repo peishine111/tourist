@@ -5,25 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>美食餐廳</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
 </head>
 <body>
-  <a href="./index.html" class="nav-item index">觀光景點</a>
-  <a href="./restaurant.html" class="nav-item restaurant">美食餐廳</a>
-  <a href="./hotel.html" class="nav-item hotel">旅遊住宿</a>
-  <a href="./activity.html" class="nav-item activity">觀光活動</a>
-  <br><br>
-  <img class="pic" src="https://upload.cc/i1/2021/11/13/HnWteX.png" alt="台北101"/>
-  <h1 class="welcome">Welcome to Taiwan.</h1>
-  <div class="plate">
-    <h6>輸入美食餐廳等你想探索的資訊:</h6>
-    <input class="text keyword" type="text" placeholder="鼎泰豐、饗食天堂......"/>
-    <input class="btn send" type="button" value="搜尋"/></div>
-  <div><h2>美食餐廳列表
-      <ul class="list"></ul>
-  </h2></div>
 
-  <script src="restaurant.js"></script>
+  <div class="whole">
+    <a href="./index.html" class="nav-item index">觀光景點</a>
+    <a href="./restaurant.html" class="nav-item restaurant">美食餐廳</a>
+    <a href="./hotel.html" class="nav-item hotel">旅遊住宿</a>
+    <a href="./activity.html" class="nav-item activity">觀光活動</a>
+    <br><br>
+    <img class="pic" src="https://upload.cc/i1/2021/11/13/HnWteX.png" alt="台北101"/>
+    <h1 class="welcome">Welcome to Taiwan.</h1>
+    <div class="plate">
+      <h6>輸入美食餐廳等你想探索的資訊:</h6>
+      <input class="text keyword" type="text" placeholder="鼎泰豐、饗食天堂......"/>
+      <input class="btn send" type="button" value="搜尋"/>
+    </div>
+    <div><h2>餐廳列表</h2>
+      <ul class="list">
+      </ul>
+    </div>
+  </div><br>
+  <div class="btn2">
+  </div>
+
+
+  <script src="./restaurant.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha.js"></script>
 </body>
